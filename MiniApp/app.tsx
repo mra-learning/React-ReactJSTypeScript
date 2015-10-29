@@ -2,11 +2,11 @@
     data: string[];
 }
 
-class HelloMessage extends React.Component<IHelloMessage, any> {
+class HelloMessage extends React.Component<IHelloMessage, any> { 
 
     public render() {
 
-        var helloList = this.props.data.map(function (item) {
+        var helloList = this.props.data.map(function (item) { 
             return (
                 <li>item</li>
             );
@@ -18,4 +18,4 @@ class HelloMessage extends React.Component<IHelloMessage, any> {
 
 var list = ['a', 'b', 'c'];
 
-React.render(<HelloMessage data = { list } />, document.getElementById('content'));
+React.render(<HelloMessage data = { list } />, document.getElementById('content')); 
